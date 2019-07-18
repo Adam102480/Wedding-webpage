@@ -1,0 +1,53 @@
+/* ===GENERAL STYLES===*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Single-direction margin */
+h1,h2,h3,
+ul,p,img {
+    margin-bottom: 1.5rem;
+}
+
+body {
+  background: url('assets/wedding-landing-cover.jpg') no-repeat center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #444349;
+}
+
+.locations,
+.program,
+.gifts,
+.qustions,
+.contact {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .4rem 1rem;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color .20s ease-in-out;
+}
