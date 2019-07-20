@@ -25,7 +25,7 @@ body {
 .contact {
   width: 95%;
   margin: 1.5rem auto;
-  padding: .4rem 1rem;
+  padding: .5rem 1rem;
   text-align: center;
 }
 
@@ -111,4 +111,74 @@ date {
   width: 1.3rem;
   vertical-align: middle;
   margin: 1rem;
+}
+
+/* Location STYLES */
+.blurb img {
+  height: 9.5rem;
+}
+
+.blurb h3 {
+  font-weight: 600;
+}
+
+.blurb div {
+  font-family: 'Muli', sans-serif;
+}
+
+.blurb::after {
+  content: "";
+  display: block;
+  height: .12rem;
+  width: 30vw;
+  margin: 1.1rem auto;
+  background-color: #444349;
+}
+
+/* Program STYLES */
+
+.program {
+    background: hsla(10,20%,10%,.99);
+    width: 100vw;
+    font-family: 'Muli', sans-serif;
+    color: #d2ba87;
+    text-align: center;
+    }
+
+.program h2 {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.program p {
+  font-style: italic;
+}
+
+.program ul {
+  letter-spacing: .125rem;
+}
+
+/* Gift STYLES */
+
+.gifts {
+    background: hsla(10,20%,100%,1);
+    width: 100vw;
+    font-family: 'Muli', sans-serif;
+    color: #444349;
+    text-align: center;
+    }
+
+.gifts h2 {
+  font-family: 'Great Vibes', cursive;
+  margin-top: 1rem;
+  text-align: center;
+}  
+
+.gifts img {
+  height: 9.5rem;
+    }  
+    
+.gifts p:last-child {
+  margin-bottom: 0;
 }
