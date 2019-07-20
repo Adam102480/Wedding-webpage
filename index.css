@@ -63,6 +63,14 @@ a:hover {
   display: table;
 }
 
+@media (min-width: 768px) {
+
+	.cover {
+        background: url('assets/wedding-landing-cover.jpg') no-repeat center/cover;
+		}
+
+}
+
 .mainline-wrapper {
     display: table-cell;
     vertical-align: middle;
@@ -74,8 +82,6 @@ a:hover {
   padding: .825rem;
   color: hsla(0,0%,100%,.9);
   background: hsla(100,0%,0%,.5);
-  width:30vw;
-  border-radius: 1.5rem;
     }
 
 .mainline h1 {
@@ -84,9 +90,18 @@ a:hover {
     margin-bottom: 0;
      }
 
-.tagline {
-  font-size: 1.35rem;
-  letter-spacing: .2rem;
+@media (min-width: 768px) {
+
+  .mainline {
+    padding: 2.25rem;
+    border-radius: 2rem;
+    width: 40vw;
+  }
+    
+    .mainline h1 {
+    font-size: 6rem;
+  }
+    
 }
 
 .tagline::after {
@@ -96,6 +111,14 @@ a:hover {
   height: 1.5px;
   width: 12.5rem;
   margin: .9rem auto;
+}
+
+@media (min-width: 768px) {
+
+  .tagline {
+    text-transform: uppercase;
+  }
+
 }
 
 date {
@@ -128,6 +151,17 @@ date {
   font-family: 'Muli', sans-serif;
 }
 
+@media (min-width: 768px) {
+
+  .blurb {
+   display: inline-block;
+   width: 30%;
+   padding: 2rem;
+   margin: 1rem;
+  }
+
+}
+
 .blurb::after {
   content: "";
   display: block;
@@ -137,14 +171,31 @@ date {
   background-color: #444349;
 }
 
+@media (min-width: 768px) {
+
+  .blurb::after {
+   display:none;
+  }
+
+}
+
 /* Program STYLES */
 
 .program {
   width: 100vw;
-  text-align: center;
+  text-align: left;
   background: hsla(100,0%,0%,.99);
   color: #d2ba87;
   font-family: 'Muli', sans-serif;
+}
+
+@media (min-width: 768px) {
+
+  .program-wrapper {
+   width: 30vw;
+   margin: 0 auto;
+  }
+
 }
 
 .program h2 {
@@ -214,12 +265,32 @@ date {
 }
 
 .question {
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: .2rem;
     }
 
 .answer {
   margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+
+  .question-group {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    padding: 1.5rem;
+    margin: .7rem;
+  }
+
+  .question-group::after {
+    display: none;
+  }
+
+  .question-group h3 {
+    text-align: left;
+  }
+
 }
 
 /* Footer STYLES */
@@ -247,4 +318,12 @@ footer p {
 
 footer small {
   line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+
+  footer {
+    min-height: 6vh;
+  }
+
 }
