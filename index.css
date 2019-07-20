@@ -73,7 +73,9 @@ a:hover {
   margin: 0 auto;
   padding: .825rem;
   color: hsla(0,0%,100%,.9);
-  background: hsla(100,0%,0%,.5); 
+  background: hsla(100,0%,0%,.5);
+  width:30vw;
+  border-radius: 1.5rem;
     }
 
 .mainline h1 {
@@ -183,7 +185,7 @@ date {
   margin-bottom: 0;
 }
 
-/* Questions STYLES */
+/* FAQ STYLES */
 
 .faq {
   width: 100vw;
@@ -193,12 +195,13 @@ date {
     }
 
 .faq h2 {
-  margin-top: 1rem;
+  margin-top: 2.2rem;
 }
 
 .faq p {
   font-family: 'Muli', sans-serif;
   text-align: left;
+  margin-left: 1rem;
 }
 
 .question-group::after {
@@ -212,8 +215,36 @@ date {
 
 .question {
     font-weight: 800;
-    margin-bottom: .4rem;
+    margin-bottom: .2rem;
     }
+
 .answer {
   margin-bottom: 1.5rem;
+}
+
+/* Footer STYLES */
+
+footer {
+  height: 8vh;
+  width: 100vw;
+  background-color: #606060;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+  display: table;
+  text-align: center;
+  font-size: .9rem;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .4rem 1rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 2.5;
 }
